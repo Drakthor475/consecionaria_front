@@ -1,0 +1,80 @@
+.card-incident {
+    width: 350px;
+    background:#ffffff;;          /* MISMO BACKGROUND */
+    padding: 20px;
+    border-radius: 16px;
+    color: black;                 /* MISMO COLOR DE TEXTO */
+    box-shadow: 0 0 15px rgba(0,0,0,0.4);
+}
+
+
+
+.title {
+    font-size: 20px;
+    font-weight: bold;
+    color:  #b8860b;
+    margin: 0;
+}
+
+.subtitle {
+    font-size: 14px;
+    opacity: 0.9;
+    color: black;
+    margin-bottom: 15px;
+}
+
+.chips-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 15px;
+}
+
+.chip {
+    padding: 6px 12px;
+    background: #0059c9;        /* MISMO TONO AZUL OSCURO DE TUS OTROS BOTONES */
+    border: none;
+    border-radius: 20px;
+    color: #ffffff;
+    font-size: 13px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.chip-selected {
+    background: #0059c9;    
+    color:#ffffff;   /* AZUL SELECCIONADO COMO EN TU DISEÑO */
+}
+
+.textarea {
+    width: 90%;
+    height: 100px;
+    background: #0059c9;       /* MISMO FONDO OSCURO DE TEXTAREAS */
+    border: none;
+    border-radius: 12px;
+    padding: 10px;
+    color: #ffffff;
+    resize: none;
+    ;
+    margin-bottom: 20px;
+}
+.textarea::placeholder {
+    color: #cccccc;
+}
+.btn-submit {
+    width: 100%;
+    padding: 12px;
+    background: linear-gradient(90deg, #ffd300, #ffb700);
+    border: none;
+    border-radius: 12px;
+    font-weight: bold;
+    font-size: 15px;
+    cursor: pointer;
+    color: black;
+}
+
+.chip-selected {
+    background: #003f8d;   /* azul más oscuro para que se note la selección */
+    color: #ffffff;
+    transform: scale(1.05);
+}
